@@ -1,3 +1,4 @@
+
 const slides = [
   {
     image: "slide1.jpg",
@@ -17,7 +18,7 @@ const slides = [
     tagLine: "Autocollants <span>avec découpe laser sur mesure</span>",
   },
 ];
-
+//Script du carousel 
 //recupération des élèments html DOM
 const leftArrow = document.querySelector(".arrow_left");
 const rightArrow = document.querySelector(".arrow_right");
