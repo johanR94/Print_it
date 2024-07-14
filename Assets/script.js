@@ -57,7 +57,7 @@ function updatCarousel() {
   }
 
   //modification de la source pour afficher l'image correspondant
-  const imgSlides = `/Assets/images/slideshow/${slides[imgIndex].image}`;
+  const imgSlides = `Assets/images/slideshow/${slides[imgIndex].image}`;
   bannerImg.src = imgSlides;
   //modification du text de l'image  b
   const imgTag = slides[imgIndex].tagLine;
